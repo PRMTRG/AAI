@@ -129,5 +129,6 @@ trainer.train('model4',
                   learning_rate=5.0e-5,
                   mini_batch_size=4,
                   max_epochs=10,
+                  embeddings_storage_mode='gpu', # can be used if not fine-tuning transformers 
                   checkpoint=True,
                   )
